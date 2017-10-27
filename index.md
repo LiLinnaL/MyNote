@@ -114,3 +114,32 @@ Spring容器来完成，然后注入调用者，因此也称为依赖注入。
 调用者无须自己定位工厂，程序运行到需要被调用者时，系统自动提供被调用者实例。事实上
 ，调用者和被调用者都处于Spring的管理下，二者之间的依赖关系由Spring提供。
 
+## @JsonProperty 
+此注解用于属性上，作用是把该属性的名称序列化为另外一个名称，如把trueName属性序列化为name，如果不加就直接用原来的名字。命名规则？
+contents不加是因为不用-链接符号？
+
+## server(real beta local)
+the server in intelli is local
+And should use http://localhost:8080/internal/docs/ to check the new API
+But use the some mongoldb with others
+So the mongdb can be changed by everyone
+One port only can use one application(one server)
+
+在测试的时候自己电脑上会建立一个虚拟的mongodb  AbstractMongoTest
+
+## URL for study
+https://projectlombok.org/features/Builder
+http://reactivex.io/documentation/single.html
+https://brew.sh/
+https://docs.spring.io/spring-batch/trunk/reference/html/readersAndWriters.html
+https://docs.spring.io/spring-batch/trunk/reference/html/configureStep.html#stepExecutionListener
+https://git-scm.com/book/zh/v2
+https://git-scm.com/book/en/v2/Git-Branching-Rebasing
+http://reactivex.io/documentation/single.html
+https://stackoverflow.com/questions/2221658/whats-the-difference-between-head-and-head-in-git
+http://www.paulboxley.com/blog/2011/06/git-caret-and-tilde
+
+
+## 
+## 
+
